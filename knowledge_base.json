@@ -1,0 +1,133 @@
+{
+    "patterns": {
+        "greetings": {
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening"
+            ],
+            "response": "Hello! Welcome. How can I help you today?"
+        },
+
+        "how_are_you": {
+            "patterns": [
+                "how are you",
+                "how are you doing",
+                "how's it going"
+            ],
+            "response": "I'm doing great! Thanks for asking."
+        },
+
+        "name": {
+            "patterns": [
+                "what is your name",
+                "your name",
+                "who are you"
+            ],
+            "response": "I am a Rule-Based AI Chatbot."
+        },
+
+        "thanks": {
+            "patterns": [
+                "thanks",
+                "thank you"
+            ],
+            "response": "You're welcome!"
+        },
+
+        "bye": {
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "exit"
+            ],
+            "response": "Goodbye! Have a wonderful day."
+        }
+    },
+
+    "knowledge": [
+        {
+            "question": "What is AI?",
+            "answer": "Artificial Intelligence (AI) is the simulation of human intelligence by machines to perform tasks such as learning, reasoning, and decision-making."
+        },
+        {
+            "question": "What is Machine Learning?",
+            "answer": "Machine Learning is a branch of AI that enables computers to learn from data and improve their performance without being explicitly programmed."
+        },
+        {
+            "question": "What is Deep Learning?",
+            "answer": "Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers to solve complex problems."
+        },
+        {
+            "question": "What is NLP?",
+            "answer": "Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and generate human language."
+        },
+        {
+            "question": "What is Computer Vision?",
+            "answer": "Computer Vision is a branch of AI that enables computers to identify, analyze, and understand images and videos."
+        },
+        {
+            "question": "What is Data Science?",
+            "answer": "Data Science is the process of collecting, analyzing, and interpreting data to extract useful insights and support decision-making."
+        },
+        {
+            "question": "What is Python?",
+            "answer": "Python is a popular programming language widely used in AI, Machine Learning, Data Science, and Web Development."
+        },
+        {
+            "question": "What is a Chatbot?",
+            "answer": "A chatbot is a software application that interacts with users through text or voice to answer questions or perform tasks."
+        },
+        {
+            "question": "What is a Neural Network?",
+            "answer": "A Neural Network is a computational model inspired by the human brain that helps computers recognize patterns and make predictions."
+        },
+        {
+            "question": "What is Supervised Learning?",
+            "answer": "Supervised Learning is a Machine Learning technique where a model learns from labeled training data."
+        },
+        {
+            "question": "What is Unsupervised Learning?",
+            "answer": "Unsupervised Learning is a Machine Learning technique where a model finds patterns in data without labeled outputs."
+        },
+        {
+            "question": "What is Reinforcement Learning?",
+            "answer": "Reinforcement Learning is a Machine Learning method where an agent learns by interacting with its environment and receiving rewards or penalties."
+        },
+        {
+            "question": "What is a Dataset?",
+            "answer": "A dataset is a collection of related data used for training, testing, and evaluating Machine Learning models."
+        },
+        {
+            "question": "What is an Algorithm?",
+            "answer": "An algorithm is a step-by-step procedure or set of rules used to solve a problem or perform a task."
+        },
+        {
+            "question": "What is Automation?",
+            "answer": "Automation is the use of technology to perform tasks with minimal or no human intervention."
+        },
+        {
+            "question": "What is Generative AI?",
+            "answer": "Generative AI is a type of AI that can create new content such as text, images, music, and code based on learned patterns."
+        },
+        {
+            "question": "What is ChatGPT?",
+            "answer": "ChatGPT is an AI-powered conversational chatbot that can answer questions, generate text, and assist with various tasks."
+        },
+        {
+            "question": "What are the applications of AI?",
+            "answer": "AI is used in healthcare, education, banking, transportation, customer service, agriculture, cybersecurity, and many other industries."
+        },
+        {
+            "question": "What are the advantages of AI?",
+            "answer": "AI improves efficiency, automates repetitive tasks, reduces errors, analyzes large amounts of data, and supports better decision-making."
+        },
+        {
+            "question": "What are the disadvantages of AI?",
+            "answer": "AI can be expensive to develop, may replace certain jobs, depends heavily on quality data, and raises privacy and ethical concerns."
+        }
+    ]
+}
