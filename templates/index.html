@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Rule-Based Chatbot</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        <div class="logo">🤖</div>
+
+        <div>
+            <h2>AI Chatbot</h2>
+            <p>Rule-Based Assistant</p>
+        </div>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+
+        <div class="bot-message">
+            👋 Hello! I am your AI Assistant.
+            <br><br>
+            Ask me anything about Artificial Intelligence.
+        </div>
+
+    </div>
+
+    <div class="input-area">
+
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+            autocomplete="off"
+        >
+
+        <button onclick="sendMessage()">Send</button>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

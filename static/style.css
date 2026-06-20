@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#010101,#0a0a0a);
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.chat-container{
+
+    width:420px;
+
+    height:700px;
+
+    background:rgb(184, 203, 241);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.25);
+
+}
+
+.chat-header{
+
+    background:#0c085a;
+
+    color:white;
+
+    padding:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.logo{
+
+    font-size:40px;
+
+}
+
+.chat-header h2{
+
+    font-size:22px;
+
+}
+
+.chat-header p{
+
+    opacity:.8;
+
+    font-size:13px;
+
+}
+
+.chat-box{
+
+    flex:1;
+
+    padding:20px;
+
+    overflow-y:auto;
+
+    background:#F5F7FB;
+
+}
+
+.user-message{
+
+    background:#060606;
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:18px 18px 0 18px;
+
+    width:max-content;
+
+    max-width:75%;
+
+    margin-left:auto;
+
+    margin-bottom:15px;
+
+}
+
+.bot-message{
+
+    background:rgb(13, 13, 13);
+
+    color:#faf7f7;
+
+    padding:12px 18px;
+
+    border-radius:18px 18px 18px 0;
+
+    width:max-content;
+
+    max-width:75%;
+
+    margin-bottom:15px;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.08);
+
+}
+
+.input-area{
+
+    display:flex;
+
+    padding:15px;
+
+    background:white;
+
+    border-top:1px solid #ddd;
+
+}
+
+.input-area input{
+
+    flex:1;
+
+    padding:14px;
+
+    border:2px solid #ddd;
+
+    border-radius:30px;
+
+    outline:none;
+
+    font-size:15px;
+
+}
+
+.input-area input:focus{
+
+    border-color:#090909;
+
+}
+
+.input-area button{
+
+    margin-left:10px;
+
+    background:#080808;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 25px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.input-area button:hover{
+
+    background:#080708;
+
+    transform:scale(1.05);
+
+}
+
+::-webkit-scrollbar{
+
+    width:5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#020202;
+
+    border-radius:10px;
+
+}
